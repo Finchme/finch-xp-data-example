@@ -2,7 +2,7 @@
 
 Testing the Finch XP APIs is simple and doesn't require you to use real transactional data thanks to our test data.
 
-The Finch XP Test data consists of 100 transactions from fake users at 4 fake financial institutions/banks.
+The Finch XP Test data consists of 100 transactions from fake users at 4 fake financial institutions/banks. You will have to specify the `productType` you are currently subscribed to in the request body.
 
 You are welcome to test using your own real data although testing (both fake and real data) is limited to 1000 transactions, 100 users, or 90 days: whichever is first.
 
