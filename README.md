@@ -2,13 +2,15 @@
 
 Testing the Finch XP APIs is simple and doesn't require you to use real transactional data thanks to our test data.
 
-The Finch XP Test data consists of 100 transactions from fake users at 4 fake financial institutions/banks. You will have to specify the `productType` you are currently subscribed to in the request body.
+The Finch XP Test data consists of 100 transactions from fake users at 4 fake financial institutions/banks. In the request body, you will have to specify the `productType`, along with the Transaction Object \(see below\).
+
+The `productType` available for testing are `LENDING` and `PERSONAL_FINANCE` - if you haven't already, please subscribe to them in your developer console.
 
 You are welcome to test using your own real data although testing (both fake and real data) is limited to 1000 transactions, 100 users, or 90 days: whichever is first.
 
-If you would like to test with your own data, please [contact us](mailto:sales@finchxp.com) and we’ll provide you with a list of financial institutions/banks that we support for testing.
+If you would like to test with your own data, please [contact us](mailto:support@finchxp.com) and we’ll provide you with a list of financial institutions/banks that we support for testing.
 
-To see a full list of all financial institutions/banks we support in production, check out our providers list [here](https://docs.finchxp.com).
+For more information on Getting Started or our API Endpoints, check out our API documentation [here](https://docs.finchxp.com).
 
 # The Transaction Object
 

@@ -2,7 +2,7 @@
 	"transactions": [
 		{
 			"transactionId": "1",
-			"transactionDescription": "PENDING - DOMINO&#39;S - ADAMSTOWN ADAMSTOWN , 0306LAST 4 CARD DIGITS 1234",
+			"transactionDescription": "PENDING - DOMINO&#39;S - ADAMSTOWN ADAMSTOWN , 1234LAST 4 CARD DIGITS 1234",
 			"providerId": "AAAA",
 			"transactionDate": "2020-05-01",
 			"transactionAmount": "5.00",
@@ -15,7 +15,7 @@
 		},
 		{
 			"transactionId": "2",
-			"transactionDescription": "PENDING - Sergio&#39;s Cakes Marrickville , 0306LAST 4 CARD DIGITS 1234",
+			"transactionDescription": "PENDING - Sergio&#39;s Cakes Marrickville , 1234LAST 4 CARD DIGITS 1234",
 			"providerId": "AAAA",
 			"transactionDate": "2020-05-01",
 			"transactionAmount": "3.00",
@@ -28,7 +28,7 @@
 		},
 		{
 			"transactionId": "3",
-			"transactionDescription": "PENDING - HERITAGE BAKERY &amp; PIZZ FOREST LODGE , 0305LAST 4 CARD DIGITS 1234",
+			"transactionDescription": "PENDING - HERITAGE BAKERY &amp; PIZZ FOREST LODGE , 1234LAST 4 CARD DIGITS 1234",
 			"providerId": "AAAA",
 			"transactionDate": "2020-05-01",
 			"transactionAmount": "92.00",
@@ -93,7 +93,7 @@
 		},
 		{
 			"transactionId": "8",
-			"transactionDescription": "PENDING - SW1 Wines &amp; Ales South Brisban , 0305LAST 4 CARD DIGITS 1234",
+			"transactionDescription": "PENDING - SW1 Wines &amp; Ales South Brisban , 1234LAST 4 CARD DIGITS 1234",
 			"providerId": "AAAA",
 			"transactionDate": "2020-05-01",
 			"transactionAmount": "28.99",
@@ -106,7 +106,7 @@
 		},
 		{
 			"transactionId": "9",
-			"transactionDescription": "PENDING - Oli &amp; Levi Galleria Melbourne , 0305LAST 4 CARD DIGITS 1234",
+			"transactionDescription": "PENDING - Oli &amp; Levi Galleria Melbourne , 1234LAST 4 CARD DIGITS 1234",
 			"providerId": "AAAA",
 			"transactionDate": "2020-05-01",
 			"transactionAmount": "4.00",
@@ -132,7 +132,7 @@
 		},
 		{
 			"transactionId": "11",
-			"transactionDescription": "PENDING - SMP*WENDYS WENDOUREE Wendouree , 0304LAST 4 CARD DIGITS 1234",
+			"transactionDescription": "PENDING - SMP*WENDYS WENDOUREE Wendouree , 1234LAST 4 CARD DIGITS 1234",
 			"providerId": "AAAA",
 			"transactionDate": "2020-05-01",
 			"transactionAmount": "11.18",
@@ -652,7 +652,7 @@
 		},
 		{
 			"transactionId": "21",
-			"transactionDescription": "V0096 05/03 FOURTH AVENUE DELI       KLEMZIG    XXXXXXX0065 MISCELLANEOUS DEBIT",
+			"transactionDescription": "V1234 05/03 FOURTH AVENUE DELI       KLEMZIG    XXXXXXX0065 MISCELLANEOUS DEBIT",
 			"providerId": "BBBB",
 			"transactionDate": "2020-05-01",
 			"transactionAmount": "51.40",
@@ -665,7 +665,7 @@
 		},
 		{
 			"transactionId": "22",
-			"transactionDescription": "V5608 27/02 HELLS KITCHEN            MELBOURNE  XXXXXXX0059 MISCELLANEOUS DEBIT",
+			"transactionDescription": "V1234 27/02 HELLS KITCHEN            MELBOURNE  XXXXXXX0059 MISCELLANEOUS DEBIT",
 			"providerId": "BBBB",
 			"transactionDate": "2020-05-01",
 			"transactionAmount": "10.00",
@@ -678,7 +678,7 @@
 		},
 		{
 			"transactionId": "23",
-			"transactionDescription": "V5035 27/02 ONTARIO AVE GEN STORE    MILDURA    XXXXXXX0059 MISCELLANEOUS DEBIT",
+			"transactionDescription": "V1234 27/02 ONTARIO AVE GEN STORE    MILDURA    XXXXXXX1234 MISCELLANEOUS DEBIT",
 			"providerId": "BBBB",
 			"transactionDate": "2020-05-01",
 			"transactionAmount": "13.50",
@@ -691,7 +691,7 @@
 		},
 		{
 			"transactionId": "24",
-			"transactionDescription": "V9251 29/02 BIRDIES                  FORTITUDE  XXXXXXX1234 MISCELLANEOUS DEBIT",
+			"transactionDescription": "V1234 29/02 BIRDIES                  FORTITUDE  XXXXXXX1234 MISCELLANEOUS DEBIT",
 			"providerId": "BBBB",
 			"transactionDate": "2020-05-01",
 			"transactionAmount": "15.00",
@@ -704,7 +704,7 @@
 		},
 		{
 			"transactionId": "25",
-			"transactionDescription": "V2069 29/02 CRAVE                    BORONIA    XXXXXXX1234 MISCELLANEOUS DEBIT",
+			"transactionDescription": "V1234 29/02 CRAVE                    BORONIA    XXXXXXX1234 MISCELLANEOUS DEBIT",
 			"providerId": "BBBB",
 			"transactionDate": "2020-05-01",
 			"transactionAmount": "33.00",
@@ -730,7 +730,7 @@
 		},
 		{
 			"transactionId": "69",
-			"transactionDescription": "V0414 15/11 ZipPay PXXXX5464 Sydney XXXXXXX1234 MISCELLANEOUS DEBIT",
+			"transactionDescription": "V1234 15/11 ZipPay PXXXX5464 Sydney XXXXXXX1234 MISCELLANEOUS DEBIT",
 			"providerId": "BBBB",
 			"transactionDate": "2020-05-01",
 			"transactionAmount": "125.00",
@@ -743,7 +743,7 @@
 		},
 		{
 			"transactionId": "70",
-			"transactionDescription": "V1399 31/12 DIREX LIMITED CYPRUS XXXXXXX1234 MISCELLANEOUS DEBIT",
+			"transactionDescription": "V1234 31/12 DIREX LIMITED CYPRUS XXXXXXX1234 MISCELLANEOUS DEBIT",
 			"providerId": "BBBB",
 			"transactionDate": "2020-05-01",
 			"transactionAmount": "20.00",
@@ -756,7 +756,7 @@
 		},
 		{
 			"transactionId": "71",
-			"transactionDescription": "V0424 03/12 Microsoft Pty. Limited Mimsbill.inf XXXXXXX1234 MISCELLANEOUS DEBIT",
+			"transactionDescription": "V1234 03/12 Microsoft Pty. Limited Mimsbill.inf XXXXXXX1234 MISCELLANEOUS DEBIT",
 			"providerId": "BBBB",
 			"transactionDate": "2020-05-01",
 			"transactionAmount": "17.99",
@@ -782,7 +782,7 @@
 		},
 		{
 			"transactionId": "73",
-			"transactionDescription": "V1539 03/01 ZipPay PXXXX9089 Sydney XXXXXXX0000 MISCELLANEOUS DEBIT",
+			"transactionDescription": "V1234 03/01 ZipPay PXXXX9089 Sydney XXXXXXX0000 MISCELLANEOUS DEBIT",
 			"providerId": "BBBB",
 			"transactionDate": "2020-05-01",
 			"transactionAmount": "40.00",
@@ -795,7 +795,7 @@
 		},
 		{
 			"transactionId": "74",
-			"transactionDescription": "V9623 22/10 ZipPay PXXXX8352 Sydney XXXXXXX1234 MISCELLANEOUS DEBIT",
+			"transactionDescription": "V1234 22/10 ZipPay PXXXX8352 Sydney XXXXXXX1234 MISCELLANEOUS DEBIT",
 			"providerId": "BBBB",
 			"transactionDate": "2020-05-01",
 			"transactionAmount": "40.00",
