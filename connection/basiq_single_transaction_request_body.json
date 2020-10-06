@@ -1,0 +1,62 @@
+{
+    "accounts": [
+      {
+        "type": "account",
+        "id": "A001",
+        "accountNo": "34839485",
+        "name": "My spending account",
+        "currency": "AUD",
+        "balance": "100.00",
+        "availableFunds": "95.00",
+        "lastUpdated": "2020-10-03T00:00:00Z",
+        "class": {
+          "type": "transaction",
+          "product": "Everyday Spending"
+        },
+        "transactionIntervals": [
+          {
+            "from": "2019-10-01",
+            "to": "2020-10-01"
+          }
+        ],
+        "status": "available",
+        "institution": "AU0000",
+        "accountHolder": "John Smith",
+        "connection": "Jsdf712",
+        "links": {
+          "self": "https://au-api.basiq.io/users/u001/accounts/a001",
+          "transactions": "https://au-api.basiq.io/users/u001/transactions?filter=account.id.eq('a001')",
+          "connection": null,
+          "institution": "https://au-api.basiq.io/institutions/AU00101"
+        }
+      }
+    ],
+    "transactions": [
+      {
+        "type": "transaction",
+        "id": "T001",
+        "status": "POSTED",
+        "description": "FRESH AND FAIR PTY L NEWPORT NS AUS Tap and Pay xx1234 Value Date_ 01/05/2020",
+        "postDate": "2020-10-03T00:00:00Z",
+        "transactionDate": "2020-10-01T00:00:00Z",
+        "amount": "150.00",
+        "balance": "2000.00",
+        "account": "A001",
+        "institution": "AU1000",
+        "connection": "C001",
+        "direction": "DEBIT",
+        "class": "payment",
+        "subClass": {
+          "code": "451",
+          "title": "Cafes, Restaurants and Takeaway Food Services"
+        },
+        "links": {
+          "self": "https://au-api.basiq.io/users/u001/transactions/t001",
+          "accounts": "https://au-api.basiq.io/users/u001/accounts/a001",
+          "connection": null,
+          "institution": "https://au-api.basiq.io/institutions/AU00101"
+        }
+      }
+    ],
+    "productType": "PERSONAL_FINANCE"
+  }
