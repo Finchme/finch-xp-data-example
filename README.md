@@ -44,14 +44,14 @@ The required parameters for each file uploaded to the signed URL are listed belo
 
 |   Name    |   Description |
 |---|---|
-|userId: string|Your unique end-users, as defined by you|
+|externalUserId: string|Your unique end-users, as defined by you|
 |providerId: string|The bank or financial institution of the end-user. See GET `/api/providers` for a list of providers and their providerIDs|
-|accountNumber: string|The account number as provided by the bank or financial institution|
+|externalAccountId: string|The account number as provided by the bank or financial institution|
 |accountType: string | The type of financial account as defined by the bank or financial institution, e.g. checking, savings, loan etc|
-|transactionId: string | The unique transaction number as defined by you, the bank or financial institution. Each transaction belongs to only one account.|
-|transactionType: string|A transaction type represents a money movement in or out of an account. CREDIT is money in, income etc.; DEBIT is money out, expense.|
-|transactionDescription: string |The original description of the transaction as provided by the institution i.e. as it appears in the original bank statement |
-|transactionDate: string |The original date of the transaction as provided by the institution. Dates and times are always given in ISO 8601 format.|
-|transactionAmount: number |The original amount of the transaction as provided by the institution. |
-|transactionCurrency: string (optional)|The currency of the transaction as provided by the institution, default AUD.|
-|transactionStatus: string (optional)|The status of the transaction can be POSTED or PENDING.|
+|externalTransactionId: string | The unique transaction number as defined by you, the bank or financial institution. Each transaction belongs to only one account.|
+|type: string|A transaction type represents a money movement in or out of an account. CREDIT is money in, income etc.; DEBIT is money out, expense.|
+|description: string |The original description of the transaction as provided by the institution i.e. as it appears in the original bank statement |
+|date: string |The original date of the transaction as provided by the institution. Dates and times are always given in ISO 8601 format.|
+|amount: number |The original amount of the transaction as provided by the institution. |
+|currency: string (optional)|The currency of the transaction as provided by the institution, default AUD.|
+|status: string (optional)|The status of the transaction can be POSTED or PENDING.|
